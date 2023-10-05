@@ -1,0 +1,44 @@
+.body{
+    top: 37px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 305px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.body > a {
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition-duration: 180ms;
+}
+
+.body > a:hover {
+    color: #9cb3ff;
+    text-shadow: 2px 8px 6px rgba(255, 255, 255, 0.1),
+                 0px -5px 35px rgba(255,255,255,0.2);
+}
+
+@media (max-width: 1900px) {
+    .body{
+        padding: 0 150px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .body{
+        padding: 0 0;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 925px) {
+    .body{
+        display: none;
+    }
+}

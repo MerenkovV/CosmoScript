@@ -1,0 +1,202 @@
+.ellipse1{
+    position: absolute;
+    top: 38px;
+    left: 31%;
+    z-index: 3;
+}
+
+.ellipse2{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 3;
+}
+
+.ellipse3{
+    position: absolute;
+    left: 0px;
+    top: 113px;
+    z-index: 3;
+}
+
+.ellipse4{
+    position: absolute;
+    right: 0px;
+    top: 239px;
+    z-index: 3;
+}
+
+.ellipse5{
+    position: absolute;
+    left: 143px;
+    top: 378px;
+    z-index: 3;
+}
+
+.ellipse6{
+    position: absolute;
+    right: 20%;
+    top: 490px;
+    z-index: 3;
+}
+
+@media (max-width: 1800px) {
+    .ellipse1{
+        width: 310px;
+    }
+    .ellipse2{
+        width: 490px;
+    }
+    .ellipse3{
+        width: 520px;
+    }
+    .ellipse4{
+        width: 800px;
+    }
+    .ellipse5{
+        width: 600px;
+    }
+    .ellipse6{
+        right: 15%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .ellipse1{
+        width: 280px;
+    }
+    .ellipse2{
+        width: 420px;
+    }
+    .ellipse3{
+        width: 470px;
+    }
+    .ellipse4{
+        width: 710px;
+    }
+    .ellipse5{
+        width: 510px;
+    }
+    .ellipse6{
+        width: 320px;
+        right: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .ellipse1{
+        width: 260px;
+    }
+    .ellipse2{
+        width: 380px;
+    }
+    .ellipse3{
+        width: 430px;
+    }
+    .ellipse4{
+        width: 570px;
+    }
+    .ellipse5{
+        left: 73px;
+        width: 420px;
+    }
+    .ellipse6{
+        width: 300px;
+        right: 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .ellipse1{
+        left: 20%;
+        width: 230px;
+    }
+    .ellipse2{
+        width: 300px;
+    }
+    .ellipse3{
+        width: 340px;
+    }
+    .ellipse4{
+        width: 500px;
+    }
+    .ellipse5{
+        left: 40px;
+        width: 350px;
+    }
+    .ellipse6{
+        width: 300px;
+        right: 2%;
+    }
+}
+
+@media (max-width: 740px) {
+    .ellipse1{
+        left: 20%;
+        width: 240px;
+    }
+    .ellipse2{
+        width: 200px;
+    }
+    .ellipse3{
+        width: 240px;
+    }
+    .ellipse4{
+        width: 400px;
+    }
+    .ellipse5{
+        left: 20%;
+        width: 250px;
+    }
+    .ellipse6{
+        width: 200px;
+        right: 2%;
+    }
+}
+
+@media (max-width: 570px) {
+    .ellipse1{
+        left: 10%;
+        width: 200px;
+    }
+    .ellipse2{
+        width: 180px;
+    }
+    .ellipse3{
+        width: 200px;
+    }
+    .ellipse4{
+        width: 300px;
+    }
+    .ellipse5{
+        left: 8%;
+        width: 200px;
+    }
+    .ellipse6{
+        width: 180px;
+        right: 0%;
+    }
+}
+
+@media (max-width: 400px) {
+    .ellipse1{
+        left: 6%;
+        width: 160px;
+    }
+    .ellipse2{
+        width: 140px;
+    }
+    .ellipse3{
+        width: 160px;
+    }
+    .ellipse4{
+        width: 230px;
+    }
+    .ellipse5{
+        left: 4%;
+        width: 170px;
+    }
+    .ellipse6{
+        width: 160px;
+    }
+}
