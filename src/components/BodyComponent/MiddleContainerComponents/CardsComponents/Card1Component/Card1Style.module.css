@@ -1,0 +1,101 @@
+.shadow{
+    position: absolute;
+    left: -1px;
+    z-index: 10;
+}
+
+.greenIsland{
+    position: absolute;
+    left: 32px;
+    top: 21px;
+    z-index: 9;
+}
+
+.blueIsland{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 9;
+}
+
+.light{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    z-index: 8;
+}
+
+.line{
+    position: absolute;
+    left: -67px;
+    top: 3px;
+}
+
+.letter1{
+    position: absolute;
+    background: url('../../../../../images/Card1Images/letter1.png'), 50% / cover no-repeat;
+    width: 72px;
+    height: 72px;
+    left: 111px;
+    top: 187px;
+}
+
+.planet2{
+    position: absolute;
+    left: 282px;
+    top: 109px;
+    z-index: 9;
+}
+
+.islands{
+    position: absolute;
+    left: 257px;
+    top: 85px;
+    z-index: 9;
+}
+
+.shadow2{
+    position: absolute;
+    left: 260px;
+    top: 86px;
+    z-index: 10;
+}
+
+.light2{
+    position: absolute;
+    left: 260px;
+    top: 86px;
+    z-index: 8;
+}
+
+.image{
+    margin-right: 500px;
+}
+
+.card{
+    margin-left: 170px;
+}
+
+.message1{
+    position: absolute;
+    background: url('../../../../../images/Card1Images/message1.png'), 50% / cover no-repeat;
+    width: 100px;
+    height: 100px;
+    left: 316px;
+    top: 131px;
+    z-index: 10;
+}
+
+.letter2{
+    position: absolute;
+    background: url('../../../../../images/Card1Images/letter2.png'), 50% / cover no-repeat;
+    width: 115px;
+    height: 111px;
+    left: 411px;
+    top: 139px;
+    z-index: 10;
+}
+
+.text{
+    padding-top: 70px;
+}

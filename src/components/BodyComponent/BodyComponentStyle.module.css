@@ -1,7 +1,36 @@
 .body{
     background: #040723;
     height: 3841px;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
 }
 
+.topContainer{
+    width: 100%;
+    height: calc(76px + 69vw);
+    /* border: 2px solid white; */
+}
+
+.middleContainer{
+    position: inherit;
+    width: 100%;
+    z-index: 8;
+}
+
+@media (max-width: 1900px) {
+    .topContainer{
+        height: 1390px;
+    }
+}
+
+@media (max-width: 800px) {
+    .topContainer{
+        height: calc(404px + 73vw);
+    }
+}
+
+@media (max-width: 555px) {
+    .topContainer{
+        height: calc(226px + 73vw);
+    }
+}

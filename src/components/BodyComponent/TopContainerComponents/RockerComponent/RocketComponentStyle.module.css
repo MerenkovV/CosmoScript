@@ -1,0 +1,47 @@
+.body{
+    position: absolute;
+    z-index: 6;
+    left: 6vw;
+    top: 29vw;
+}
+
+.gas{
+    position: absolute;
+    opacity: 0.2;
+    width: 67vw;
+    height: 55vw;
+    top:-2px;
+}
+
+.rocket{
+    position: absolute;
+    top: 2vw;
+    left: 51vw;
+    width: 40vw;
+    height: 40vw;
+    background: url('../../../../images/rocket.png') center/35.5vw no-repeat;
+}
+
+@media (max-width: 1800px) {
+    .body{
+        top: calc(1361px - 43vw);
+    }
+}
+
+@media (max-width: 1500px) {
+    .body{
+        top: calc(1241px - 43vw);
+    }
+}
+
+@media (max-width: 800px) {
+    .body{
+        top: calc(500px + 3vw);
+    }
+}
+
+@media (max-width: 555px) {
+    .body{
+        top: calc(260px + 15vw);
+    }
+}

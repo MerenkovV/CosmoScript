@@ -1,0 +1,134 @@
+.body{
+    position: absolute;
+    height: 1380px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.lightContainer{
+    position: absolute;
+    width: 100%;
+    height: 2080px;
+    top: calc(1115px - 48vw);
+    left: 0;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.spaceGradient {
+    position: relative;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 94.3vw;
+}
+
+.skyGradient {
+    position: absolute;
+    bottom: -255px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1920px;
+    height: 979px;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.skyBackGradient {
+    position: absolute;
+    bottom: -192px;
+    width: 1919px;
+    height: 941.5px;
+    flex-shrink: 0;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.intersect{
+    position: absolute;
+    bottom: 0;
+    width: 1920px;
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 1908px) {
+
+    .lightContainer{
+        top: 190px;
+        height: calc(2080px + 100vw);
+    }
+
+    .skyGradient {
+        bottom: calc(-255px + 2.5vw - calc(calc(100vw - 1964px)*0.03));
+        width: 100%;
+        height: 51.8vw;
+    }
+    
+    .skyBackGradient {
+        bottom: calc(-192px + 1.5vw);
+        width: 100%;
+        height: 51.8vw;
+    }
+    
+    .intersect{
+        bottom: calc(calc(100vw - 1940px)*0.105);
+        width: 100%;
+        height: 77.8vw;
+    }
+
+    .body{
+        height: calc(1380px + 3vw + (calc(100vw - 1919px)*0.8));
+    }
+}
+
+@media (max-width: 1300px) {
+    .lightContainer{
+        top: calc(1276px - 57vw);
+    }
+}
+
+@media (max-width: 800px) {
+
+    .lightContainer{
+        top: calc(395px + 8vw);
+    }
+
+    .skyGradient {
+        bottom: calc(calc(800px - 100vw) * 1.33 - 262px);
+        width: 200%;
+        height: 169.8vw;
+    }
+    
+    .skyBackGradient {
+        bottom: calc(calc(800px - 100vw) * 1.24 - 198px);
+        width: 200%;
+        height: 163.8vw;
+    }
+    
+    .intersect{
+        bottom: calc(800px - 100vw);
+        width: 200%;
+        height: 200vw;
+    }
+    .body{
+        top: -175px;
+    }
+}
+
+@media (max-width: 555px) {
+
+    .lightContainer{
+        top: calc(214px + 8vw);
+    }
+
+    .body{
+        top: -355px;
+    }
+}

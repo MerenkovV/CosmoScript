@@ -1,0 +1,14 @@
+.text{
+    position: relative;
+    z-index: 8;
+    margin-top: 176px;
+    margin-bottom: 66px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}

@@ -2,42 +2,42 @@
     position: absolute;
     top: 38px;
     left: 31%;
-    z-index: 3;
+    z-index: 5;
 }
 
 .ellipse2{
     position: absolute;
     top: 70px;
     right: 0px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .ellipse3{
     position: absolute;
     left: 0px;
     top: 113px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .ellipse4{
     position: absolute;
     right: 0px;
     top: 239px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .ellipse5{
     position: absolute;
     left: 143px;
     top: 378px;
-    z-index: 3;
+    z-index: 5;
 }
 
 .ellipse6{
     position: absolute;
     right: 20%;
     top: 490px;
-    z-index: 3;
+    z-index: 5;
 }
 
 @media (max-width: 1800px) {
