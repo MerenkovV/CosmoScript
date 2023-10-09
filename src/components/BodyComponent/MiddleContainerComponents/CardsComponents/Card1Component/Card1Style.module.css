@@ -73,7 +73,7 @@
 }
 
 .card{
-    margin-left: 170px;
+    margin-left: 8.9vw;
 }
 
 .message1{
@@ -98,4 +98,87 @@
 
 .text{
     padding-top: 70px;
+}
+
+@media (max-width: 1600px){
+    .image{
+        margin-right: 355px;
+    }
+}
+
+@media (max-width: 1300px){
+    .image{
+        margin-right: 355px;
+    }
+}
+
+@media (max-width: 1024px){
+    .card{
+        margin-left: 3vw;
+    }
+    .image{
+        margin-right: 288px;
+        margin-top: 29px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        margin-left: 1vw;
+    }
+    .image{
+        margin-right: 181px;
+        margin-top: 33px;
+    }
+}
+
+@media (max-width: 645px){
+    .planet{
+        display: none;
+    }
+    .shadow{
+        display: none;
+    }
+    .greenIsland{
+        display: none;
+    }
+    .blueIsland{
+        display: none;
+    }
+    .light{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .letter1{
+        display: none;
+    }
+    .card{
+        margin-left: -105px;
+    }
+    .image{
+        margin-right: 266px;
+        margin-top: -24px;
+    }
+}
+
+@media (max-width: 425px){
+    .card{
+        margin-left: -98px;
+    }
+    .image{
+        margin-right: 242px;
+        margin-top: -24px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        margin-left: -87px;
+    }
+    .image{
+        margin-right: 200px;
+        margin-top: -24px;
+    }
 }

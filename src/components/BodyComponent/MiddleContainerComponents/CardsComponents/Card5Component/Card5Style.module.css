@@ -25,7 +25,7 @@
 }
 
 .card{
-    margin-left: 500px;
+    margin-left: 26.3vw;
     margin-top: 130px;
 }
 
@@ -75,4 +75,79 @@
 
 .subtitle{
     width: 303px;
+}
+
+@media (max-width: 1600px){
+    .card{
+        margin-left: 16.3vw;
+        margin-top: 130px;
+    }
+    .image{
+        margin-right: 35px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 1300px){
+    .card{
+        margin-left: 10.3vw;
+        margin-top: 130px;
+    }
+    .image{
+        margin-right: 22px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 1024px){
+    .card{
+        margin-left: 1.3vw;
+        margin-top: 80px;
+    }
+    .image{
+        margin-right: 10px;
+        margin-top: -6px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        margin-left: 9.5vw;
+    }
+    .image{
+        margin-right: 68px;
+        margin-top: -23px;
+    }
+}
+
+@media (max-width: 645px){
+    .card{
+        margin-left: -25px;
+    }
+    .image{
+        margin-right: -14px;
+        margin-top: -23px;
+    }
+}
+
+@media (max-width: 425px){
+    .card{
+        margin-left: -42px;
+        margin-top: 0px;
+    }
+    .image{
+        margin-right: -26px;
+        margin-top: -32px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        margin-left: -55px;
+        margin-top: -25px;
+    }
+    .image{
+        margin-right: -35px;
+        margin-top: -34px;
+    }
 }

@@ -25,7 +25,7 @@
 }
 
 .card{
-    margin-left: 1105px;
+    margin-left: 58.1vw;
     margin-top: 160px;
 }
 
@@ -71,4 +71,79 @@
 
 .button{
     background: #FB2B0F;
+}
+
+@media (max-width: 1600px){
+    .card{
+        margin-left: 48.1vw;
+        margin-top: 160px;
+    }
+    .image{
+        margin-right: 47px;
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 1300px){
+    .card{
+        margin-left: 40.1vw;
+        margin-top: 130px;
+    }
+    .image{
+        margin-right: 36px;
+        margin-top: -14px;
+    }
+}
+
+@media (max-width: 1024px){
+    .card{
+        margin-left: calc(58.1vw - 269px);
+        margin-top: 100px;
+    }
+    .image{
+        margin-right: 36px;
+        margin-top: -14px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        margin-left: 7vw;
+    }
+    .image{
+        margin-right: 34px;
+        margin-top: -35px;
+    }
+}
+
+@media (max-width: 645px){
+    .card{
+        margin-left: -46px;
+    }
+    .image{
+        margin-right: -35px;
+        margin-top: -44px;
+    }
+}
+
+@media (max-width: 425px){
+    .card{
+        margin-left: -63px;
+        margin-top: 25px;
+    }
+    .image{
+        margin-right: -43px;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        margin-left: -73px;
+        margin-top: 31px;
+    }
+    .image{
+        margin-right: -61px;
+        margin-top: -52px;
+    }
 }

@@ -1,6 +1,6 @@
 .body{
     background: #040723;
-    height: 3841px;
+    height: calc(2462px + 69vw);
     overflow: hidden;
     width: 100%;
 }
@@ -21,16 +21,69 @@
     .topContainer{
         height: 1390px;
     }
+    .body{
+        height: calc(3868px - 4vw);
+    }
+}
+
+@media (max-width: 1600px) {
+    .body{
+        height: calc(3753px - 4vw);
+    }
+}
+
+@media (max-width: 1300px) {
+    .body{
+        height: calc(3612px - 4vw);
+    }
+}
+
+@media (max-width: 1024px) {
+    .body{
+        height: calc(3320px - 4vw);
+    }
+}
+
+@media (max-width: 900px) {
+    .body{
+        height: calc(3234px - 4vw);
+    }
 }
 
 @media (max-width: 800px) {
     .topContainer{
         height: calc(404px + 73vw);
     }
+
+    .body{
+        height: calc(2212px + 73vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .body{
+        height: calc(2100px + 73vw);
+    }
 }
 
 @media (max-width: 555px) {
     .topContainer{
         height: calc(226px + 73vw);
+    }
+
+    .body{
+        height: calc(1892px + 73vw);
+    }
+}
+
+@media (max-width: 425px) {
+    .body{
+        height: calc(1524px + 73vw);
+    }
+}
+
+@media (max-width: 375px) {
+    .body{
+        height: calc(1352px + 73vw);
     }
 }

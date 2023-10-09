@@ -127,20 +127,26 @@
 
 }
 
+@media (max-width: 555px) {
+    .star5{
+        top: 231px;
+    }
+    .star8{
+        display: none;
+    }
+    .star10{
+        display: none;
+    }
+    .star11{
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
     .star1{
         right: 80px;
     }
     .star2{
         left: 50px;
-    }
-    .star8{
-        left: 50%;
-    }
-    .star10{
-        left: 20%;
-    }
-    .star11{
-        right: 30%;
     }
 }

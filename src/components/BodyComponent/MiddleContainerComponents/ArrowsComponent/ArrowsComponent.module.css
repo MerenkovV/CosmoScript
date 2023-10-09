@@ -1,0 +1,226 @@
+.container{
+    position: relative;
+}
+
+.body{
+    position: absolute;
+    width: 124px;
+    height: 124px;
+}
+
+.circle{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.arrow{
+    position: absolute;
+    top: 49.5px;
+    left: 49.5px;
+}
+
+.element{
+    position: absolute;
+    height: 124px;
+    width: 124px;
+    z-index: 10;
+}
+
+.element1{
+    top: 385px;
+    left: 32.3vw;
+}
+
+.element2{
+    top: 778px;
+    left: 51.1vw;
+}
+
+.element3{
+    top: 1194px;
+    left: 54.2vw;
+    transform: rotate(75deg);
+}
+
+.element4{
+    top: 1640px;
+    left: 36vw;
+    transform: rotate(75deg);
+}
+
+@media(max-width: 1600px){
+    .element1{
+        top: 385px;
+        left: 30.2vw;
+    }
+    .element2{
+        top: 754px;
+        left: 45.1vw;
+    }
+    .element3{
+        top: 1172px;
+        left: 44.2vw;
+    }
+    .element4{
+        top: 1591px;
+        left: 27vw;
+    }
+}
+
+@media(max-width: 1300px){
+    .element1{
+        top: 385px;
+        left: 22.2vw;
+    }
+    .element2{
+        top: 741px;
+        left: 37.1vw;
+    }
+    .element3{
+        top: 1102px;
+        left: 38.2vw;
+    }
+    .element4{
+        top: 1486px;
+        left: 22vw;
+    }
+}
+
+@media(max-width: 1024px){
+    .element1{
+        top: 345px;
+        left: 24.2vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element2{
+        top: 654px;
+        left: 32.1vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element3{
+        top: 961px;
+        left: 29vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element4{
+        top: 1287px;
+        left: 13vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+}
+
+@media(max-width: 900px){
+    .element1{
+        top: 340px;
+        left: 23.2vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element2{
+        top: 649px;
+        left: 28vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element3{
+        top: 961px;
+        left: 27vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+    .element4{
+        top: 1292px;
+        left: 14vw;
+        transform: rotate(40deg) scale(0.8);
+    }
+}
+
+@media(max-width: 768px){
+    .element1{
+        top: 285px;
+        left: 15.2vw;
+        transform: rotate(40deg) scale(0.7);
+    }
+    .element2{
+        top: 573px;
+        left: 15.2vw;
+        transform: rotate(40deg) scale(0.7);
+    }
+    .element3{
+        top: 874px;
+        left: 15.2vw;
+        transform: rotate(40deg) scale(0.7);
+    }
+    .element4{
+        top: 1203px;
+        left: 15.2vw;
+        transform: rotate(40deg) scale(0.7);
+    }
+}
+
+@media(max-width: 645px){
+    .element1{
+        top: 285px;
+        left: 1.2vw;
+        transform: rotate(40deg) scale(0.6);
+    }
+    .element2{
+        top: 573px;
+        left: 1.2vw;
+        transform: rotate(40deg) scale(0.6);
+    }
+    .element3{
+        top: 874px;
+        left: 1.2vw;
+        transform: rotate(40deg) scale(0.6);
+    }
+    .element4{
+        top: 1203px;
+        left: 1.2vw;
+        transform: rotate(40deg) scale(0.6);
+    }
+}
+
+@media(max-width: 425px){
+    .element1{
+        top: 234px;
+        left: -1vw;
+        transform: rotate(40deg) scale(0.55);
+    }
+    .element2{
+        top: 455px;
+        left: -1vw;
+        transform: rotate(40deg) scale(0.55);
+    }
+    .element3{
+        top: 660px;
+        left: -1vw;
+        transform: rotate(40deg) scale(0.55);
+    }
+    .element4{
+        top: 882px;
+        left: -1vw;
+        transform: rotate(40deg) scale(0.55);
+    }
+}
+
+@media(max-width: 375px){
+    .element1{
+        top: 209px;
+        left: -4vw;
+        transform: rotate(40deg) scale(0.5);
+    }
+    .element2{
+        top: 417px;
+        left: -4vw;
+        transform: rotate(40deg) scale(0.5);
+    }
+    .element3{
+        top: 613px;
+        left: -4vw;
+        transform: rotate(40deg) scale(0.5);
+    }
+    .element4{
+        top: 806px;
+        left: -4vw;
+        transform: rotate(40deg) scale(0.5);
+    }
+}

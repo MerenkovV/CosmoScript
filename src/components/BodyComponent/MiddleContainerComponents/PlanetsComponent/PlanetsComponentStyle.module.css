@@ -1,0 +1,170 @@
+.planet1{
+    position: relative;
+    left: 100vw;
+    top: 0px;
+}
+
+.planet1_shape{
+    position: absolute;
+    left: -197px;
+}
+
+.planet1_flash{
+    position: absolute;
+    left: -197px;
+}
+
+.planet1_light{
+    position: absolute;
+    left: -490px;
+    top: -313px;
+}
+
+.planet2{
+    position: relative;
+    left: 0;
+    top: 822px;
+}
+
+.planet2_shape{
+    position: absolute;
+    left: 334px;
+    top: 139px;
+}
+
+.planet2_light1{
+    position: absolute;
+    left: 143px;
+    top: -50px;
+}
+
+.planet2_light2{
+    position: absolute;
+    left: 0px;
+    top: -210px;
+}
+
+.planet2_shape2{
+    position: absolute;
+    left: 195px;
+    top: 65px;
+}
+
+.planet2_shape3{
+    position: absolute;
+    left: 75px;
+    top: -4px;
+}
+.planet2_shape4{
+    position: absolute;
+    left: -2px;
+    top: -74px;
+}
+
+.planet3{
+    position: relative;
+    left: 100vw;
+    top: 1571px;
+}
+
+.planet3_shape{
+    position: absolute;
+    left: -583px;
+    top: 139px;
+}
+.planet3_shape2{
+    position: absolute;
+    left: -533px;
+    top: 182px;
+}
+
+@media(max-width: 1500px){
+    .planet2{
+        left: -154px;
+        transform: scale(0.8);
+    }
+    .planet1{
+        left: 107vw;
+        top: -86px;
+    }
+    .planet3{
+        left: 100vw;
+        top: 1411px;
+    }
+}
+
+@media(max-width: 1300px){
+    .planet3{
+        left: 114vw;
+        top: 1303px;
+    }
+}
+
+@media(max-width: 1024px){
+    .planet2{
+        left: -273px;
+        top: 740px;
+        transform: scale(0.7);
+        opacity: 0.8;
+    }
+    .planet1{
+        left: 85vw;
+        top: 287px;
+        transform: scale(0.7);
+        opacity: 0.8;
+    }
+    .planet3{
+        left: 95vw;
+        top: 1222px;
+        transform: scale(0.7);
+        opacity: 0.8;
+    }
+}
+
+@media(max-width: 768px){
+    .planet2{
+        left: -273px;
+        top: 740px;
+        transform: scale(0.6);
+        opacity: 0.7;
+    }
+    .planet1{
+        left: 85vw;
+        top: 249px;
+        transform: scale(0.6);
+        opacity: 0.7;
+    }
+    .planet3{
+        left: 95vw;
+        top: 1068px;
+        transform: scale(0.6);
+        opacity: 0.7;
+    }
+}
+
+@media(max-width: 555px){
+    .planet2{
+        left: -273px;
+        top: 740px;
+        transform: scale(0.6);
+        opacity: 0.5;
+    }
+    .planet1{
+        left: 85vw;
+        top: 249px;
+        transform: scale(0.5);
+        opacity: 0.4;
+    }
+    .planet3{
+        left: 96vw;
+        top: 1097px;
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+
+@media(max-width: 425px){
+    .planet3{
+        display: none;
+    }
+}

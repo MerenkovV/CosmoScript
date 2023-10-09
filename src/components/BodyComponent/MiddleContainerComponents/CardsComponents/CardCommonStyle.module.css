@@ -45,3 +45,127 @@
 .image{
     position: relative;
 }
+
+
+@media (max-width: 1600px){
+    .image{
+        transform: scale(0.85);
+    }
+    .title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1300px){
+    .image{
+        transform: scale(0.75);
+    }
+    .title{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .button{
+        width: 260px;
+        height: 46px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px){
+    .image{
+        transform: scale(0.65);
+    }
+    .title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .subtitle{
+        font-size: 16px;
+        line-height: 120%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 768px){
+    .image{
+        transform: scale(0.45);
+    }
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .subtitle{
+        font-size: 14px;
+        line-height: 110%;
+        margin-bottom: 35px;
+    }
+    .button{
+        width: 240px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 645px){
+    .image{
+        transform: scale(0.45);
+    }
+    .title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .subtitle{
+        font-size: 14px;
+        line-height: 110%;
+        margin-bottom: 35px;
+        width: 259px;
+    }
+    .button{
+        width: 240px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px){
+    .image{
+        transform: scale(0.40);
+    }
+    .title{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .subtitle{
+        font-size: 12px;
+        width: 215px;
+        margin-bottom: 60px;
+    }
+    .button{
+        width: 210px;
+        height: 34px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 375px){
+    .image{
+        transform: scale(0.35);
+    }
+    .title{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .subtitle{
+        font-size: 12px;
+        width: 215px;
+        margin-bottom: 40px;
+    }
+    .button{
+        width: 200px;
+        height: 32px;
+        font-size: 10px;
+    }
+}
