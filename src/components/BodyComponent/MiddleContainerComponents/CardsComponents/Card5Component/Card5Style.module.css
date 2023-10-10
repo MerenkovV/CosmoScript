@@ -73,6 +73,11 @@
     background: #FB2B0F;
 }
 
+.button:hover{
+    background: #fb520f;
+    cursor: pointer;
+}
+
 .subtitle{
     width: 303px;
 }

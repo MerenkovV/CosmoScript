@@ -70,7 +70,7 @@ export default function Card2Component() {
         <div className={`${CommonStyle.text} ${style.text}`}>
             <p className={`${CommonStyle.title} `}>Запоминаем <br/> имена</p>
             <p className={`${CommonStyle.subtitle} `}>&emsp;   Научимся управлять кораблем <br/> и запишем имя капитана корабля (переменные).</p>
-            <button className={`${CommonStyle.button} `}>Бесплатный доступ</button>
+            <button className={`${CommonStyle.button} ${style.button}`}>Бесплатный доступ</button>
         </div>
     </div>
   )

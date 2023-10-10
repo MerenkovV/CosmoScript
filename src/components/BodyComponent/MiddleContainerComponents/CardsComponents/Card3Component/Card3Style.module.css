@@ -73,6 +73,11 @@
     background: #FB2B0F;
 }
 
+.button:hover{
+    background: #fb520f;
+    cursor: pointer;
+}
+
 @media (max-width: 1600px){
     .card{
         margin-left: 48.1vw;

@@ -133,7 +133,7 @@ export default function Card1Component() {
         <div className={`${CommonStyle.text} ${style.text}`}>
             <p className={`${CommonStyle.title} `}>Приветствие</p>
             <p className={`${CommonStyle.subtitle} `}>&emsp;Создадим космический корабль, научимся отправлять и принимать сообщения с земли (Ввод/вывод данных).</p>
-            <button className={`${CommonStyle.button} `}>Бесплатный доступ</button>
+            <button className={`${CommonStyle.button} ${style.button}`}>Бесплатный доступ</button>
         </div>
     </div>
   )

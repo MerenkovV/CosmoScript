@@ -11,8 +11,8 @@ export default function Card3Component() {
         <circle cx="122.535" cy="122.5" r="112.5" fill="#AAAAAA"/>
         </g>
         <defs>
-        <filter id="filter0_d_15_215" x="0.034668" y="0" width="245" height="245" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <filter id="filter0_d_15_215" x="0.034668" y="0" width="245" height="245" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
         <feOffset/>
         <feGaussianBlur stdDeviation="5"/>
@@ -30,7 +30,7 @@ export default function Card3Component() {
         <circle cx="141.5" cy="141.5" r="118.095" transform="rotate(-12.9132 141.5 141.5)" fill="#5098F0"/>
         </mask>
         <g mask="url(#mask0_15_290)">
-        <rect x="-90.4863" y="0.491943" width="194.275" height="346.635" transform="rotate(-12.9132 -90.4863 0.491943)" fill="black" fill-opacity="0.2"/>
+        <rect x="-90.4863" y="0.491943" width="194.275" height="346.635" transform="rotate(-12.9132 -90.4863 0.491943)" fill="black" fillOpacity="0.2"/>
         </g>
         </svg>
 
@@ -52,11 +52,11 @@ export default function Card3Component() {
 
         <svg className={style.light} width="294" height="293" viewBox="0 0 294 293" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_f_15_143)">
-        <circle cx="146.535" cy="146.5" r="126.5" fill="#7C4DFF" fill-opacity="0.15"/>
+        <circle cx="146.535" cy="146.5" r="126.5" fill="#7C4DFF" fillOpacity="0.15"/>
         </g>
         <defs>
-        <filter id="filter0_f_15_143" x="0.034668" y="0" width="293" height="293" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <filter id="filter0_f_15_143" x="0.034668" y="0" width="293" height="293" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
         <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_15_143"/>
         </filter>

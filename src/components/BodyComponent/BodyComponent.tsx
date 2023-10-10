@@ -1,3 +1,4 @@
+import {useRef, useEffect} from 'react'
 import BigButtonComponent from './TopContainerComponents/BigButtonComponent/BigButtonComponent'
 import style from './BodyComponentStyle.module.css'
 import CloudsComponent from './TopContainerComponents/CloudsComponent/CloudsComponent'
@@ -10,7 +11,23 @@ import TitleComponent from './TopContainerComponents/TextComponents/TitleCompone
 import MiddleTitleComponent from './MiddleContainerComponents/MiddleTitleComponent/MiddleTitleComponent'
 import CommonCardsComponent from './MiddleContainerComponents/CardsComponents/CommonCardsComponent'
 
-export default function BodyComponent() {
+interface IProps {
+  setState: any,
+  state: {
+    refAbout: any
+  }
+}
+
+export default function BodyComponent(props:IProps) {
+  useEffect(()=>{
+    console.log(refAbout);
+    props.setState({
+      refAbout
+    })
+  }, [])
+  const refAbout = useRef<HTMLDivElement>(null)
+  const refTariff = useRef<HTMLDivElement>(null)
+
   return (
     <div className={style.body}>
       <div className={style.topContainer}>
@@ -21,12 +38,16 @@ export default function BodyComponent() {
         <SkyFrontComponent/>
         <TitleComponent/>
         <RocketComponent/>
-        <BigButtonComponent/>
+        <BigButtonComponent state={props.state}/>
       </div>
 
-      <div className={style.middleContainer}>
+      <div ref={refAbout} className={style.middleContainer}>
         <MiddleTitleComponent/>
         <CommonCardsComponent/>
+      </div>
+
+      <div ref={refTariff} className={style.bottomContainer}>
+        
       </div>
     </div>
   )

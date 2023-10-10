@@ -1,17 +1,28 @@
-import React from 'react'
 import style from './HeaderComponentStyle.module.css'
-import { HashLink } from 'react-router-hash-link'
 
-export default function HeaderComponent() {
+interface IProps {
+  state: {
+    refAbout: any
+  }
+}
+
+export default function HeaderComponent(props: IProps) {
   return (
     <div className={style.body}>
-        <HashLink to=''>Описание игры</HashLink>
-        <HashLink to=''>Уровни</HashLink>
-        <HashLink to=''>Тарифы</HashLink>
-        <HashLink to=''>Отзывы</HashLink>
-        <HashLink to=''>Партнеры</HashLink>
-        <HashLink to=''>Профиль</HashLink>
-        <HashLink to=''>Игра</HashLink>
+        <span onClick={()=>{
+          props.state.refAbout.current !== null && 
+          window.scrollTo({
+            top: props.state.refAbout.current.offsetTop, 
+            behavior: "smooth",
+          })
+          
+        }}>Описание игры</span>
+        <span>Уровни</span>
+        <span>Тарифы</span>
+        <span>Отзывы</span>
+        <span>Партнеры</span>
+        <span>Профиль</span>
+        <span>Игра</span>
     </div>
   )
 }

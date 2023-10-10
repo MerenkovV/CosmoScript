@@ -17,6 +17,12 @@
     z-index: 8;
 }
 
+.bottomContainer{
+    position: inherit;
+    width: 100%;
+    z-index: 8;
+}
+
 @media (max-width: 1900px) {
     .topContainer{
         height: 1390px;

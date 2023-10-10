@@ -11,6 +11,11 @@
     z-index: 9;
 }
 
+.button:hover{
+    background: #0f42fb;
+    cursor: pointer;
+}
+
 .blueIsland{
     position: absolute;
     left: 10px;

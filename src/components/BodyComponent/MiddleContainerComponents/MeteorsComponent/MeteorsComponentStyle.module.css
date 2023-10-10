@@ -1,0 +1,166 @@
+@keyframes Meteor1Way {
+    from {
+        top: -464px;
+        left: 71vw;
+    }
+    to {
+        top: 49px;
+        left: 100vw;
+    }
+}
+
+@keyframes Meteor2Way {
+    from {
+        top: -70.5vw;
+        left: 110vw;
+    }
+    to {
+        top: 70vw;
+        left: -20vw;
+    }
+}
+
+@keyframes Meteor3Way {
+    from {
+        top: 78.9vw;
+        left: 100vw;
+    }
+    to {
+        top: 220.3vw;
+        left: -18vw;
+    }
+}
+
+.container{
+    position: relative;
+}
+
+.meteor1{
+    position: absolute;
+    top: -434px;
+    left: 73vw;
+    animation-name: Meteor1Way;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+.meteor2{
+    position: absolute;
+    top: 434px;
+    left: 10vw;
+    animation-name: Meteor2Way;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+.meteor3{
+    position: absolute;
+    top: 1412px;
+    left: 87vw;
+    animation-name: Meteor3Way;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@media(min-width: 1900px){
+    @keyframes Meteor1Way {
+        from {
+            top: -464px;
+            left: 69vw;
+        }
+        to {
+            top: 10vw;
+            left: 100vw;
+        }
+    }
+}
+
+@media(max-width: 1300px){
+    @keyframes Meteor1Way {
+        from {
+            top: -464px;
+            left: 69vw;
+        }
+        to {
+            top: 49px;
+            left: 108vw;
+        }
+    }
+    @keyframes Meteor3Way {
+        from {
+            top: 98.9vw;
+            left: 100vw;
+        }
+        to {
+            top: 260.3vw;
+            left: -18vw;
+        }
+    }
+}
+
+@media(max-width: 1000px){
+    @keyframes Meteor1Way {
+        from {
+            top: -464px;
+            left: 60vw;
+        }
+        to {
+            top: 49px;
+            left: 105vw;
+        }
+    }
+    .meteor1, .meteor2, .meteor3{
+        transform: scale(0.8);
+    }
+
+}
+
+@media(max-width: 800px){
+    @keyframes Meteor1Way {
+        from {
+            top: -404px;
+            left: 30vw;
+        }
+        to {
+            top: 149px;
+            left: 105vw;
+        }
+    }
+    .meteor1, .meteor2{
+        transform: scale(0.7);
+        animation-duration: 15s;
+    }
+    .meteor3{
+        display: none;
+    }
+}
+
+@media(max-width: 450px){
+    @keyframes Meteor1Way {
+        from {
+            top: -200px;
+            left: 0vw;
+        }
+        to {
+            top: 249px;
+            left: 120vw;
+        }
+    }
+    @keyframes Meteor3Way {
+        from {
+            top: 120.9vw;
+            left: 100vw;
+        }
+        to {
+            top: 280.3vw;
+            left: -18vw;
+        }
+    }
+    .meteor1, .meteor2{
+        transform: scale(0.3);
+        animation-duration: 10s;
+    }
+}

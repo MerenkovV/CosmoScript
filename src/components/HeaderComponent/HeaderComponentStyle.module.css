@@ -8,7 +8,7 @@
     z-index: 10;
 }
 
-.body > a {
+.body > span {
     color: #FFF;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
@@ -18,8 +18,9 @@
     transition-duration: 180ms;
 }
 
-.body > a:hover {
+.body > span:hover {
     color: #9cb3ff;
+    cursor: pointer;
     text-shadow: 2px 8px 6px rgba(255, 255, 255, 0.1),
                  0px -5px 35px rgba(255,255,255,0.2);
 }
