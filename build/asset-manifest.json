@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/cosmoSite/static/css/main.c32e98ad.css",
-    "main.js": "/cosmoSite/static/js/main.7f36565c.js",
-    "index.html": "/cosmoSite/index.html",
-    "main.c32e98ad.css.map": "/cosmoSite/static/css/main.c32e98ad.css.map",
-    "main.7f36565c.js.map": "/cosmoSite/static/js/main.7f36565c.js.map"
+    "main.css": "/CosmoScript/build/static/css/main.6b408d73.css",
+    "main.js": "/CosmoScript/build/static/js/main.5c430b4c.js",
+    "static/media/rocket.png": "/CosmoScript/build/static/media/rocket.680719d6b12f3c034ad9.png",
+    "static/media/book.png": "/CosmoScript/build/static/media/book.140d1b409348f5bbc294.png",
+    "static/media/keyboard.png": "/CosmoScript/build/static/media/keyboard.5b9f30813be16a05e03e.png",
+    "static/media/phone.png": "/CosmoScript/build/static/media/phone.9fff9f2f7bdfb222eaaf.png",
+    "static/media/bottle.png": "/CosmoScript/build/static/media/bottle.cef3fd9301fc40747cf1.png",
+    "static/media/joystick.png": "/CosmoScript/build/static/media/joystick.11b45b4c5ac7229ed059.png",
+    "static/media/gear.png": "/CosmoScript/build/static/media/gear.d05af1e5463ebecb9f32.png",
+    "index.html": "/CosmoScript/build/index.html",
+    "static/media/arrowBottom.svg": "/CosmoScript/build/static/media/arrowBottom.5827cb28b67a8c194cd9.svg",
+    "main.6b408d73.css.map": "/CosmoScript/build/static/css/main.6b408d73.css.map",
+    "main.5c430b4c.js.map": "/CosmoScript/build/static/js/main.5c430b4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c32e98ad.css",
-    "static/js/main.7f36565c.js"
+    "static/css/main.6b408d73.css",
+    "static/js/main.5c430b4c.js"
   ]
 }

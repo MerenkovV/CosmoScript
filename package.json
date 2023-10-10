@@ -2,7 +2,7 @@
   "name": "cosmoscript",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://merenkovv.github.io/cosmoSite",
+  "homepage": "https://merenkovv.github.io/CosmoScript/build/",
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "@testing-library/jest-dom": "^5.14.1",
