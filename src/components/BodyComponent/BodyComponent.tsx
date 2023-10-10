@@ -10,19 +10,24 @@ import StarsComponent from './TopContainerComponents/StarsComponent/StarsCompone
 import TitleComponent from './TopContainerComponents/TextComponents/TitleComponent'
 import MiddleTitleComponent from './MiddleContainerComponents/MiddleTitleComponent/MiddleTitleComponent'
 import CommonCardsComponent from './MiddleContainerComponents/CardsComponents/CommonCardsComponent'
+import SliderComponent from './BottomContainerComponents/SliderComponent/SliderComponent'
+import { TariffType } from '../../App'
 
 interface IProps {
   setState: any,
   state: {
     refAbout: any
+    refTariff: any
+    Tariffs: Array<TariffType>
   }
 }
 
 export default function BodyComponent(props:IProps) {
   useEffect(()=>{
-    console.log(refAbout);
     props.setState({
-      refAbout
+      ...props.state,
+      refAbout,
+      refTariff
     })
   }, [])
   const refAbout = useRef<HTMLDivElement>(null)
@@ -46,8 +51,8 @@ export default function BodyComponent(props:IProps) {
         <CommonCardsComponent/>
       </div>
 
-      <div ref={refTariff} className={style.bottomContainer}>
-        
+      <div ref={refTariff} className={style.bottomContainer} >
+        <SliderComponent state={props.state}/>
       </div>
     </div>
   )

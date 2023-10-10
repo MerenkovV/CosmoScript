@@ -1,8 +1,11 @@
+import { TariffType } from '../../App'
 import style from './HeaderComponentStyle.module.css'
 
 interface IProps {
   state: {
     refAbout: any
+    refTariff: any
+    Tariffs: Array<TariffType>
   }
 }
 
@@ -18,7 +21,14 @@ export default function HeaderComponent(props: IProps) {
           
         }}>Описание игры</span>
         <span>Уровни</span>
-        <span>Тарифы</span>
+        <span onClick={()=>{
+          props.state.refTariff.current !== null && 
+          window.scrollTo({
+            top: props.state.refTariff.current.offsetTop, 
+            behavior: "smooth",
+          })
+          
+        }}>Тарифы</span>
         <span>Отзывы</span>
         <span>Партнеры</span>
         <span>Профиль</span>

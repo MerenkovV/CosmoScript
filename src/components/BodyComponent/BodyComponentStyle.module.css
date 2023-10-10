@@ -1,6 +1,6 @@
 .body{
     background: #040723;
-    height: calc(2462px + 69vw);
+    height: calc(2462px + 69vw + 574px);
     overflow: hidden;
     width: 100%;
 }
@@ -19,6 +19,7 @@
 
 .bottomContainer{
     position: inherit;
+    margin-top: 150px;
     width: 100%;
     z-index: 8;
 }
@@ -28,31 +29,31 @@
         height: 1390px;
     }
     .body{
-        height: calc(3868px - 4vw);
+        height: calc(3868px - 4vw + 574px);
     }
 }
 
 @media (max-width: 1600px) {
     .body{
-        height: calc(3753px - 4vw);
+        height: calc(3753px - 4vw + 574px);
     }
 }
 
 @media (max-width: 1300px) {
     .body{
-        height: calc(3612px - 4vw);
+        height: calc(3612px - 4vw + 574px);
     }
 }
 
 @media (max-width: 1024px) {
     .body{
-        height: calc(3320px - 4vw);
+        height: calc(3320px - 4vw + 590px);
     }
 }
 
 @media (max-width: 900px) {
     .body{
-        height: calc(3234px - 4vw);
+        height: calc(3234px - 4vw + 600px);
     }
 }
 
@@ -62,13 +63,13 @@
     }
 
     .body{
-        height: calc(2212px + 73vw);
+        height: calc(2212px + 73vw + 610px);
     }
 }
 
 @media (max-width: 768px) {
     .body{
-        height: calc(2100px + 73vw);
+        height: calc(2100px + 73vw + 610px);
     }
 }
 
@@ -78,18 +79,18 @@
     }
 
     .body{
-        height: calc(1892px + 73vw);
+        height: calc(1892px + 73vw + 630px);
     }
 }
 
 @media (max-width: 425px) {
     .body{
-        height: calc(1524px + 73vw);
+        height: calc(1524px + 73vw + 630px);
     }
 }
 
 @media (max-width: 375px) {
     .body{
-        height: calc(1352px + 73vw);
+        height: calc(1352px + 73vw + 660px);
     }
 }

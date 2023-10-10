@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cosmoSite/static/css/main.c32e98ad.css",
+    "main.js": "/cosmoSite/static/js/main.7f36565c.js",
+    "index.html": "/cosmoSite/index.html",
+    "main.c32e98ad.css.map": "/cosmoSite/static/css/main.c32e98ad.css.map",
+    "main.7f36565c.js.map": "/cosmoSite/static/js/main.7f36565c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c32e98ad.css",
+    "static/js/main.7f36565c.js"
+  ]
+}
